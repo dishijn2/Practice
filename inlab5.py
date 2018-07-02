@@ -1,6 +1,7 @@
 from pprint import pprint
 p1 = {}
 s = ''
+
 for i in range(3):
     s=input("enter name1")
     p1[s] = int(input("enter experience1"))
