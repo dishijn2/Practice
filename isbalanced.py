@@ -38,7 +38,7 @@ if __name__ == "__main__":
 
     if result and isinstance(result, type(
             True)) and not opening_brackets_stack:
-        print("Success")
+        print("Success!")
     elif result and isinstance(result, type(True)):
         print(opening_brackets_stack[-1].position + 1)
     else:
